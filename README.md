@@ -6,4 +6,6 @@ Team Members: Shivam Tirmare (Admin),
               Prarthan Talwar,
               Shahil Patel;
               
-Technologies used: 
+Technologies used: Bootstarp, ReactJS, JavaScript
+
+File to be compililed :- index.js
