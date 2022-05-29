@@ -12,8 +12,8 @@ const App = () => {
 	return (
 		<AppProvider>
 			<div className='container'>
-				<h1 className='mt-3'>Budget Analysis</h1>
-				<div className='row mt-3'>
+				<h1 className='mt-4'>BUDGET ANALYSIS</h1>
+				<div className='row mt-4'>
 					<div className='col-sm'>
 						<Budget />
 					</div>
