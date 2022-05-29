@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { TiDelete } from 'react-icons/ti';
+import { AiFillDelete } from 'react-icons/ai';
 import { AppContext } from '../context/AppContext';
 
 const ExpenseItem = (props) => {
@@ -17,7 +17,7 @@ const ExpenseItem = (props) => {
 			{props.name}
 			<div>
 				<span class='badge badge-primary badge-pill mr-3'>₹ {props.cost}</span>
-				<TiDelete size='1.5em' onClick={handleDeleteExpense} />
+				<AiFillDelete size='1em' color='#E62E2D' onClick={handleDeleteExpense} />
 			</div>
 		</li>
 	);

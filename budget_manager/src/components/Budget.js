@@ -24,7 +24,6 @@ const Budget = () => {
 			{isEditing ? (
 				<EditBudget handleSaveClick={handleSaveClick} budget={budget} />
 			) : (
-				// For part 1 render component inline rather than create a separate one
 				<ViewBudget handleEditClick={handleEditClick} budget={budget} />
 			)}
 		</div>
